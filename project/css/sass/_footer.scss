@@ -1,0 +1,86 @@
+footer{
+    background-color: #000;
+    h3{
+        padding-bottom: 30px;
+        color: #fff;
+        span{
+            font-size: inherit;
+            color: #ff0e3b;
+        }
+    }
+    p{
+        color: #e1e1e1;
+        opacity: .5;
+        
+        
+    }
+    
+        a{
+            color: #e1e1e1;
+            display: block;
+            opacity: .5;
+            transition: all .25s ease-in-out;
+             &:hover{
+                 text-decoration: none;
+                 color: #ff0e3b;
+                 opacity: 1;
+                 transition: all .25s ease-in-out;
+             }
+        }
+        
+    .subscript{
+        background-image: url(../images/footer/footer-signup.jpg);
+        input{
+               border: none;
+               width: 60%;
+               padding: 10px;
+            
+        }
+        button{
+           border: none;
+           padding: 8px 20px;
+         background: linear-gradient(to right, #eb3c5a, #f67831);;
+           i{
+               font-size: 25px;
+               color: #fff;
+               font-weight: bold;
+           }
+        }
+        .sub{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }   
+    
+}
+.totop{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    width: 50px;
+    padding-left: 12px;
+    height: 50px;
+    display: none;
+    transition: all 1s ease-in-out;
+    border-radius: 50%;
+    background: linear-gradient(#FF416C, #FF4B2B);
+    cursor: pointer;
+    a{
+        color: #fff;
+        font-size: 30px;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}
+
+ @media (min-width: 767px) { 
+  
+    footer .subscript .sub{
+        justify-content: start;
+        align-items: center;
+    }
+   
+
+  }
